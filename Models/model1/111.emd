@@ -1,0 +1,37 @@
+{
+    "Framework": "arcgis.learn.models._inferencing",
+    "ModelConfiguration": "_maskrcnn_inferencing",
+    "InferenceFunction": "ArcGISInstanceDetector.py",
+    "ExtractBands": [
+        0,
+        1,
+        2
+    ],
+    "Classes": [
+        {
+            "Value": 1,
+            "Name": "footprint",
+            "Color": [
+                35,
+                68,
+                115
+            ]
+        }
+    ],
+    "ModelFile": "111.pth",
+    "ImageHeight": 224,
+    "ImageWidth": 224,
+    "ImageSpaceUsed": "MAP_SPACE",
+    "LearningRate": "slice('3.0200e-08', '3.0200e-07', None)",
+    "ModelName": "MaskRCNN",
+    "backend": "pytorch",
+    "ModelParameters": {
+        "backbone": "resnet50",
+        "backend": "pytorch"
+    },
+    "average_precision_score": {
+        "footprint": 0.9464257600395425
+    },
+    "resize_to": null,
+    "IsMultispectral": false
+}
