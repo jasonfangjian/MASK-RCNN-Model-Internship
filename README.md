@@ -7,6 +7,6 @@
 * Implemented a polyline compression algorithm in Python to correct distortions in building footprint extracted from historical maps
 
 ## Test Result
-1. Picture (Map) before detection
-[picture1](./assets/test.png)
-2. Pciture (Building footprints) extracted after detection
+1. Picture (Map) before detection <br>
+/[picture1](./assets/test.png)
+2. Pciture (Building footprints) extracted after detection <br>
