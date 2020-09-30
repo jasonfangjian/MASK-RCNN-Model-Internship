@@ -8,5 +8,6 @@
 
 ## Test Result
 1. Picture (Map) before detection <br>
-/[picture1](./assets/test.png)
+![picture1](./assets/test.png)
 2. Pciture (Building footprints) extracted after detection <br>
+![picture1](./assets/result.png)
